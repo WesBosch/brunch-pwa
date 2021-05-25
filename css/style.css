@@ -35,7 +35,7 @@ form {
 	padding-top: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
-	height: 30px;
+	height: 25px;
 	float: left;
 	text-align: center;
 	text-decoration: none;
@@ -55,7 +55,7 @@ form {
 	padding-left: 0;
 	padding-right: 0;
 	width: 300px;
-	background-color: #33266e;
+        background-color: #4e2f54;
 	color: white;
 }
 
@@ -66,13 +66,18 @@ form {
 	right: 0;
 	left: 0;
 	bottom: 0;
-	height: calc(100%-30px);
+	background-image:url(../images/background/background.png);
+        background-repeat: repeat;
+        background-size: cover;
+        background-position: right center;
+        height: 100%;
+        width: 100%;
 }
 
 .fleft {
 	display: block;
 	float: left;
-	background-color: #33266e;
+        background-color: #251a28e6;
 	height: 100%;
 	width: 300px;
 	top: 30px;
@@ -83,9 +88,6 @@ form {
 .fright {
 	display: block;
 	float: left;
-	background-image:url(../images/background/background.png);
-	background-repeat:repeat;
-	background-size:cover;
 	height: 100%;
 	width: calc(100% - 300px);
 	top: 30px;
@@ -95,7 +97,7 @@ form {
 
 .box {
 	width: 80%;
-	height: 500px;
+	height: 80%;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 1em;
